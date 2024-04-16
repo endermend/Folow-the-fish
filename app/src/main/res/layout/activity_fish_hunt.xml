@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gameplay" />
+
+    <Button
+        android:id="@+id/menu_1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/go_photo"
+        android:background="@drawable/row"
+        android:text="@string/menu"
+        android:textColor="#0f484d"
+        android:textSize="35dp"
+        android:onClick="back_to_menu"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@+id/go_photo"
+        android:text="@string/fish"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:minHeight="180dp"
+        android:maxWidth="400dp"
+        android:maxHeight="200dp"
+        android:layout_below="@id/name"/>
+
+
+    <Button
+        android:id="@+id/description"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/go_photo"
+        android:layout_alignRight="@+id/go_photo"
+        android:background="@drawable/row"/>
+
+    <Button
+        android:id="@+id/go_photo"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/row"
+        android:padding="5dp"
+        android:text="@string/empty_text"
+        android:textColor="#0f484d"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:onClick="go_photo"/>
+</RelativeLayout>

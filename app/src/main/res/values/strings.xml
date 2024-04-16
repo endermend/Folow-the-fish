@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">fishhunt</string>
+
+    <string name="app_label">FishHunt</string>
+
+    <string name="empty_text">Поехали!</string>
+    <string name="title_fish_hunt">Фотоохота</string>
+    <string name="other">Другие игры</string>
+    <string name="play">Начать игру</string>
+    <string name="call">ФОТООХОТА</string>
+    <string name="menu">МЕНЮ</string>
+    <string name="fish">Ваша цель:</string>
+    <string name="ye">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="ok">Верно!
+    Продолжим?</string>
+    <string name="notf">Не та рыбка...
+    Ещё разок?</string>
+    <string name="foto">Сделать фото</string>
+    <string name="dodo">Найдите</string>
+
+</resources>
